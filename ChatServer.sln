@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer.csproj", "{FDF5CF0B-30B1-44F3-B24F-E208C60D73CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{136D4226-4F59-461C-927B-FC0F09486AD4}"
+	ProjectSection(SolutionItems) = preProject
+		PhotonServer.ChatServer-Development.config = PhotonServer.ChatServer-Development.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer.Common", "ChatServer.Common\ChatServer.Common.csproj", "{9AA96C23-E44E-40B0-B406-821FB931CFD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF5CF0B-30B1-44F3-B24F-E208C60D73CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF5CF0B-30B1-44F3-B24F-E208C60D73CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF5CF0B-30B1-44F3-B24F-E208C60D73CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF5CF0B-30B1-44F3-B24F-E208C60D73CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA96C23-E44E-40B0-B406-821FB931CFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA96C23-E44E-40B0-B406-821FB931CFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA96C23-E44E-40B0-B406-821FB931CFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA96C23-E44E-40B0-B406-821FB931CFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
